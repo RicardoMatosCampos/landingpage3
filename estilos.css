@@ -55,7 +55,7 @@ header{
 
 .img-logo{
     height: 100%;
-    max-height: 60px;
+    max-height: 200px;
 }
 
 nav{
@@ -109,7 +109,7 @@ nav{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     gap: 2rem;
 }
 
