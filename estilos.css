@@ -55,7 +55,7 @@ header{
 
 .img-logo{
     height: 100%;
-    max-height: 200px;
+    max-height: 300px;
 }
 
 nav{
@@ -122,7 +122,7 @@ section{
     justify-content: space-evenly;
     align-items: center;
     gap: 2rem;
-    min-height: 650px;
+    min-height: 80px;
     flex-wrap: wrap;
 }
 
@@ -130,7 +130,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    min-width: 300px;
+    min-width: 150px;
 }
 
 h1{
@@ -159,6 +159,7 @@ strong{
 .img-profile{
     width: 100%;
     border-radius: 50%;
+    padding: 1rem;
 }
 
 :is(.second-section, .fourth-section){
@@ -213,7 +214,7 @@ strong{
 }
 
 .third-section > div p{
-    max-width: 500px;
+    max-width: 300px;
     color: var(--white);
 }
 
