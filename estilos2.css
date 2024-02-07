@@ -1,8 +1,16 @@
 body {
+    background: linear-gradient(to bottom, #3fdb34, #063c08);
+    background-color: #3fdb34; 
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+}
+
+.btn-action{
+    background-color: #063c08;
+    border: 1px solid var(--white);
+    color: var(--white);
 }
 
 .container {
