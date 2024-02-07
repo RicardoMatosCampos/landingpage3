@@ -32,7 +32,8 @@
 }
 
 body{
-    background-color: var(--dark1);
+    background: linear-gradient(to bottom, #3fdb34, #063c08);
+    background-color: #3fdb34;  
     background-size: 400%;
     height: 100vh;
     font-family: 'Lato';
@@ -45,7 +46,7 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: #2f2f46;
+    background-color: #063c08;
     min-height: 50px;
 }
 
@@ -91,7 +92,7 @@ nav{
 }
 
 .btn-action{
-    background-color: transparent;
+    background-color: #063c08;
     border: 1px solid var(--white);
     color: var(--white);
 }
@@ -118,6 +119,8 @@ section{
 }
 
 .first-section{
+
+    background: linear-gradient(to bottom, #3fdb34, #063c08);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -127,16 +130,23 @@ section{
 }
 
 .first-section > div{
+    
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     gap: 1rem;
     min-width: 150px;
 }
 
 h1{
-    font-size: 4rem;
-    letter-spacing: 8px;
+    font-size: 3rem;
+    letter-spacing: 4px;
     color: var(--white);
+}
+
+h2{
+font-size: 1,5rem;
+color: var(--white);
+
 }
 
 strong{
@@ -163,7 +173,8 @@ strong{
 }
 
 :is(.second-section, .fourth-section){
-    background-color: var(--dark2);
+    background: linear-gradient(to bottom, #3fdb34, #063c08);
+    background-color: #3fdb34;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -201,6 +212,7 @@ strong{
 }
 
 .third-section > div{
+    background: linear-gradient(to bottom, #3fdb34, #063c08);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,10 +254,12 @@ strong{
 }
 
 footer{
+    
     padding: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background-color: #063c08;
 }
 
 footer > div{
