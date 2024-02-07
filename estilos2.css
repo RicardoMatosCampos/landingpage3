@@ -1,8 +1,7 @@
 body {
-    background: linear-gradient(to bottom, #3fdb34, #063c08);
-    background-color: #3fdb34; 
+    
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #c8f1bf;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +15,7 @@ body {
 .container {
     max-width: 600px;
     margin: 50px auto;
+    background: linear-gradient(to bottom, #3fdb34, #063c08);
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -23,11 +23,11 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #f6f8f8;
 }
 
 p {
-    color: #666;
+    color: #ffffff;
 }
 
 .affiliate-link {
@@ -37,7 +37,7 @@ p {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #333;
+    color: #fffcfc;
 }
 
 input {
@@ -51,7 +51,7 @@ input {
 .sales-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #356234;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -60,4 +60,22 @@ input {
 
 .sales-button:hover {
     background-color: #2980b9;
+}
+
+footer{
+
+    color: #f6f8f8;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #09530b;
+}
+
+footer > div{
+    
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
